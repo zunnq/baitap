@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bùi Thị Dung</title>
+</head>
+<body>
+    <style> 
+    form{
+        width: 10cm;          
+        margin: 1cm auto;   
+        padding: 0.5cm;       
+        border: 0.05cm solid rgb(110, 192, 110);
+    }
+    button{
+    background-color: #66b869; 
+    color: white;                      
+    border: none;
+    border-radius: 0.2cm;       
+    cursor: pointer;
+    font-size: 0.45cm;  
+     }     
+    </style>
+   
+    <form action="#" method="post">
+    <label for=" name">Họ tên</label><br>
+    <input type="text" id="name" name="name" placeholder="Nhập tên của bạn"><br>
+    <label for="email">Email</label><br>
+    <input type="email" id="name" name="email" placeholder="Nhập email của bạn"><br>
+    <label for="tuổi">Tuổi</label><br>
+    <input type="number" id="tuổi" name="tuổi" placeholder="Nhập số tuổi"><br>
+    <label for="Trạng thái">Hiện tại bạn đang làm gì</label><br>
+    <select id="Trạng thái" name="Trạng thái">
+        <option value="hs-sv">Học sinh/ Sinh viên</option>
+        <option value="nv">Nhân viên</option>
+        <option value="tự do">Tự do</option>
+        <option value="khác">Khác</option>
+    </select><br>
+    <h>Bạn sẽ giới ITviec với bạn bè chứ</h><br>
+    <input type="radio" id="yes" name="recommend" value="có">
+    <label for="yes">Có</label><br>
+    <input type="radio" id="no" name="recommend" value="không">
+    <label for="no">Không</label><br>
+    <input type="radio" id="maybe" name="recommend" value="Có thể"> 
+    <label for="maybe">Có thể</label><br>
+    <h>Ngôn ngữ lập trình và Framework bạn đã biết (có thể chọn nhiều đáp án)</h><br>
+    <input type="checkbox" id="C" name="lang" value="C">
+    <label for="C">C</label><br>
+    <input type="checkbox" id="C++" name="lang" value="C++">
+    <label for="c++">C++</label><br>
+    <input type="checkbox" id="c#" name="lang" value="c#">
+    <label for="c#">C#</label><br>
+    <h>Bạn có câu hỏi gì cho ITviec không</h><br>
+    <label for="comment"></label><br>
+    <textarea id="comment" name="comment" rows="3" cols="45" placeholder="Enter your comment here"></textarea><br>
+    <button type="submit">Submit</button>
+</form>
+</style>
+</body>
+</html>
